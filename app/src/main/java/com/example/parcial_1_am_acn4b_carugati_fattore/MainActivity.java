@@ -7,15 +7,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
     TextView resultado;
+
     @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        resultado = findViewById(R.id.resultado);
+        setContentView(R.layout.menu);
+
+
     }
 
     public void calcular(View view) {
@@ -118,5 +120,9 @@ public class MainActivity extends AppCompatActivity {
                 return x;
             }
         }.parse();
+    }
+    public void acalculadora(View view) {
+        setContentView(R.layout.activity_main);
+        resultado = findViewById(R.id.resultado);
     }
 }
