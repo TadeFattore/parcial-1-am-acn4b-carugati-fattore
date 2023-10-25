@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_neutral_variant20"
+    android:background="@color/material_dynamic_neutral20"
     android:backgroundTint="#23282E"
     tools:context=".MainActivity">
 
@@ -26,6 +26,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="7"
                 android:textSize="36sp" />
@@ -35,6 +36,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="8"
                 android:textSize="36sp" />
@@ -44,6 +46,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="9"
                 android:textSize="36sp" />
@@ -58,6 +61,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="4"
                 android:textSize="36sp" />
@@ -67,6 +71,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="5"
                 android:textSize="36sp" />
@@ -76,6 +81,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="6"
                 android:textSize="36sp" />
@@ -90,6 +96,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="1"
                 android:textSize="36sp" />
@@ -99,6 +106,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="2"
                 android:textSize="36sp" />
@@ -108,6 +116,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="3"
                 android:textSize="36sp" />
@@ -122,6 +131,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="+"
                 android:textSize="36sp" />
@@ -131,6 +141,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="0"
                 android:textSize="36sp" />
@@ -140,6 +151,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="-"
                 android:textSize="36sp" />
@@ -186,6 +198,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="calcular"
                 android:text="RESETEAR"
                 android:textSize="36sp" />
@@ -199,11 +212,12 @@
             <Button
                 android:id="@+id/buttonVolver"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="volvermenu"
                 android:text="MENU PRINCIPAL"
-                android:textSize="36sp" />
+                android:textSize="32sp" />
 
         </TableRow>
 
@@ -214,6 +228,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/black_ops_one"
         android:text="0"
         android:textSize="56sp"
         app:layout_constraintEnd_toEndOf="parent"

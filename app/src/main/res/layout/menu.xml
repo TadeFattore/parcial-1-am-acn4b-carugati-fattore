@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/imgcalculadora"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -11,26 +12,27 @@
         android:layout_width="match_parent"
         android:layout_height="238dp"
         android:layout_marginTop="100dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="63dp"
-            android:fontFamily="@font/alfa_slab_one"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/bungee_shade"
             android:lineSpacingExtra="8sp"
             android:text="Menu Caja de Herramientas"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textSize="34sp"
             android:typeface="monospace" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="156dp"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
         tools:layout_editor_absoluteX="0dp">
@@ -38,18 +40,21 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/black_ops_one"
             android:onClick="acalculadora"
             android:text="Calculadora" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/black_ops_one"
             android:text="Reloj" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/black_ops_one"
             android:text="Clima" />
 
     </LinearLayout>
