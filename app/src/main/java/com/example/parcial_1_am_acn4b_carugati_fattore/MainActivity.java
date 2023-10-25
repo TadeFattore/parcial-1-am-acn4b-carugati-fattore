@@ -125,4 +125,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         resultado = findViewById(R.id.resultado);
     }
+
+    public void volvermenu(View view) {
+        setContentView(R.layout.menu);
+    }
 }
