@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class MainActivity extends AppCompatActivity {
     TextView resultado;
@@ -128,5 +130,51 @@ public class MainActivity extends AppCompatActivity {
 
     public void volvermenu(View view) {
         setContentView(R.layout.menu);
+    }
+
+    public void aRelojes(View view){
+        setContentView(R.layout.relojes);
+
+        // Obtenemos la hora local
+        ZonedDateTime horaLocal = ZonedDateTime.now();
+        // Convertimos la hora local a formato hh:mm
+        LocalTime horaLocal24hs = horaLocal.toLocalTime();
+        // Formateamos la hora en formato hh:mm
+        DateTimeFormatter formatterLocal = DateTimeFormatter.ofPattern("HH:mm");
+        String horaLocalFormateada = horaLocal24hs.format(formatterLocal);
+        // Mostramos la hora
+        ((TextView) findViewById(R.id.textView1)).setText("Hora local: " + horaLocalFormateada);
+
+        // Obtenemos la hora en Nueva York
+        ZonedDateTime horaNuevaYork = ZonedDateTime.now(ZoneId.of("America/New_York"));
+        // Convertimos la hora en Nueva York a formato hh:mm
+        LocalTime horaNuevaYork24hs = horaNuevaYork.toLocalTime();
+        // Formateamos la hora en Nueva York en formato hh:mm
+        DateTimeFormatter formatterNY = DateTimeFormatter.ofPattern("HH:mm");
+        String horaNuevaYorkFormateada = horaNuevaYork24hs.format(formatterNY);
+        // Mostramos la hora en Nueva York
+        ((TextView) findViewById(R.id.textView2)).setText("Hora en Nueva York: " + horaNuevaYorkFormateada);
+
+        // Obtenemos la hora en Londres
+        ZonedDateTime horaLondres = ZonedDateTime.now(ZoneId.of("Europe/London"));
+        // Convertimos la hora en Londres a formato hh:mm
+        LocalTime horaLondres24hs = horaLondres.toLocalTime();
+        // Formateamos la hora en Londres en formato hh:mm
+        DateTimeFormatter formatterLon = DateTimeFormatter.ofPattern("HH:mm");
+        String horaLondresFormateada = horaLondres24hs.format(formatterLon);
+        // Mostramos la hora en Londres
+        ((TextView) findViewById(R.id.textView3)).setText("Hora en Londres: " + horaLondresFormateada);
+
+        // Obtenemos la hora en Tokio
+        ZonedDateTime horaTokio = ZonedDateTime.now(ZoneId.of("Asia/Tokyo"));
+        // Convertimos la hora en Tokio a formato hh:mm
+        LocalTime horaTokio24hs = horaTokio.toLocalTime();
+        // Formateamos la hora en Tokio en formato hh:mm
+        DateTimeFormatter formatterTok = DateTimeFormatter.ofPattern("HH:mm");
+        String horaTokioFormateada = horaTokio24hs.format(formatterTok);
+        // Mostramos la hora en Tokio
+        ((TextView) findViewById(R.id.textView4)).setText("Hora en Tokio: " + horaTokioFormateada);
+
+
     }
 }
