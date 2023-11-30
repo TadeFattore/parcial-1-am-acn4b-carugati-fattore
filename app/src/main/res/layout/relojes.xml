@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imgcalculadora"
+    android:background="@drawable/dizanna151200051"
     android:padding="16dp">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" >
+        tools:layout_editor_absoluteY="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,7 +21,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -29,34 +30,29 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image0"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/obelisco_buenos_aires_getty" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleBsAs"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Buenos Aires: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -65,7 +61,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -73,34 +70,30 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image2"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:cropToPadding="true"
+                        android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/holly" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleLa"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Los Angeles: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -109,7 +102,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -117,34 +111,29 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image3"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/chinchboncuhn" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleTokio"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Tokio: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -153,7 +142,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -161,34 +151,29 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image4"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/_0723operasidney_b" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleSidney"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Sidney: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -197,7 +182,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -205,34 +191,29 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image5"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/_676992654_6a4fee571b_b" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleLondres"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Londres: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -241,7 +222,8 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -249,38 +231,166 @@
                     android:padding="4dp">
 
                     <ImageView
-                        android:id="@+id/header_image"
+                        android:id="@+id/header_image6"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
+                        android:scaleType="matrix"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/_f15f3a7169cb" />
 
                     <TextView
-                        android:id="@+id/title"
+                        android:id="@+id/titleEgipto"
                         style="@style/TextAppearance.MaterialComponents.Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="I'm a title"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora El Cairo: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/header_image" />
-
-                    <TextView
-                        android:id="@+id/subhead"
-                        style="@style/TextAppearance.MaterialComponents.Subtitle2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
-                        android:text="I'm a subhead"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/title" />
+                        app:layout_constraintStart_toStartOf="parent" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:id="@+id/header_image7"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/pngtree_eiffel_tower_spring_landmark_background_image_2560401" />
+
+                    <TextView
+                        android:id="@+id/titleParis"
+                        style="@style/TextAppearance.MaterialComponents.Headline3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora París: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:id="@+id/header_image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/desktop_wallpaper_puerto_rico_beach_natures_puerto_rico_beach_sunset" />
+
+                    <TextView
+                        android:id="@+id/titlePr"
+                        style="@style/TextAppearance.MaterialComponents.Headline3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Puerto Rico: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                app:cardBackgroundColor="@color/material_on_surface_disabled">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:id="@+id/header_image9"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:srcCompat="@drawable/jwix2ufutbfzjmeij4hri6udhm" />
+
+                    <TextView
+                        android:id="@+id/titleAA"
+                        style="@style/TextAppearance.MaterialComponents.Headline3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:background="@android:color/system_neutral1_50"
+                        android:backgroundTint="@color/material_on_background_emphasis_medium"
+                        android:text="Hora Addis Abeba: "
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar horas" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu principal" />
         </LinearLayout>
     </ScrollView>
 
