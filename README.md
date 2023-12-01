@@ -14,4 +14,6 @@ Parcial 2 Aplicaciones Móviles
 
 Para el segundo Parcial continuamos ampliando nuestra App, agregando los relojes de todo el mundo.
 
+Esta pantalla utiliza librerías nativas de Java, por el momento no utilizamos ninguna API y para actualizar las horas, creamos un botón el cual vuelve a cargar la Vista.
+
 ![image](https://github.com/TadeFattore/parcial-1-am-acn4b-carugati-fattore/assets/71406989/ee612d2b-8f6c-484a-8867-2c8ab2850ec8)
