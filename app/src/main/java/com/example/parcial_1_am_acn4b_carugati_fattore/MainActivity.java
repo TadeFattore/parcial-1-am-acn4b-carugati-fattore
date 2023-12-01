@@ -143,17 +143,17 @@ public class MainActivity extends AppCompatActivity {
         DateTimeFormatter formatterLocal = DateTimeFormatter.ofPattern("HH:mm");
         String horaLocalFormateada = horaLocal24hs.format(formatterLocal);
         // Mostramos la hora
-        ((TextView) findViewById(R.id.textView1)).setText("Hora local: " + horaLocalFormateada);
+        ((TextView) findViewById(R.id.titleBsAs)).setText("Hora Buenos Aires: " + horaLocalFormateada);
 
         // Obtenemos la hora en Nueva York
-        ZonedDateTime horaNuevaYork = ZonedDateTime.now(ZoneId.of("America/New_York"));
+        ZonedDateTime horaNuevaYork = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
         // Convertimos la hora en Nueva York a formato hh:mm
         LocalTime horaNuevaYork24hs = horaNuevaYork.toLocalTime();
         // Formateamos la hora en Nueva York en formato hh:mm
         DateTimeFormatter formatterNY = DateTimeFormatter.ofPattern("HH:mm");
         String horaNuevaYorkFormateada = horaNuevaYork24hs.format(formatterNY);
         // Mostramos la hora en Nueva York
-        ((TextView) findViewById(R.id.textView2)).setText("Hora en Nueva York: " + horaNuevaYorkFormateada);
+        ((TextView) findViewById(R.id.titleLa)).setText("Hora Los Ángeles: " + horaNuevaYorkFormateada);
 
         // Obtenemos la hora en Londres
         ZonedDateTime horaLondres = ZonedDateTime.now(ZoneId.of("Europe/London"));
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         DateTimeFormatter formatterLon = DateTimeFormatter.ofPattern("HH:mm");
         String horaLondresFormateada = horaLondres24hs.format(formatterLon);
         // Mostramos la hora en Londres
-        ((TextView) findViewById(R.id.textView3)).setText("Hora en Londres: " + horaLondresFormateada);
+        ((TextView) findViewById(R.id.titleLondres)).setText("Hora Londres: " + horaLondresFormateada);
 
         // Obtenemos la hora en Tokio
         ZonedDateTime horaTokio = ZonedDateTime.now(ZoneId.of("Asia/Tokyo"));
@@ -173,7 +173,57 @@ public class MainActivity extends AppCompatActivity {
         DateTimeFormatter formatterTok = DateTimeFormatter.ofPattern("HH:mm");
         String horaTokioFormateada = horaTokio24hs.format(formatterTok);
         // Mostramos la hora en Tokio
-        ((TextView) findViewById(R.id.textView4)).setText("Hora en Tokio: " + horaTokioFormateada);
+        ((TextView) findViewById(R.id.titleTokio)).setText("Hora Tokio: " + horaTokioFormateada);
+
+        // Obtenemos la hora en Sydney
+        ZonedDateTime horaSydney = ZonedDateTime.now(ZoneId.of("Australia/Sydney"));
+        // Convertimos la hora en Sydney formato hh:mm
+        LocalTime horaSydney24hs = horaSydney.toLocalTime();
+        // Formateamos la hora en Sydney en formato hh:mm
+        DateTimeFormatter formatterSyd = DateTimeFormatter.ofPattern("HH:mm");
+        String horaSydneyFormateada = horaSydney24hs.format(formatterSyd);
+        // Mostramos la hora en Sydney
+        ((TextView) findViewById(R.id.titleSidney)).setText("Hora Sydney: " + horaSydneyFormateada);
+
+        // Obtenemos la hora local
+        ZonedDateTime horaCairo = ZonedDateTime.now(ZoneId.of("Africa/Cairo"));
+        // Convertimos la hora local a formato hh:mm
+        LocalTime horaCairo24hs = horaCairo.toLocalTime();
+        // Formateamos la hora en formato hh:mm
+        DateTimeFormatter formatterCairo = DateTimeFormatter.ofPattern("HH:mm");
+        String horaCairoFormateada = horaCairo24hs.format(formatterCairo);
+        // Mostramos la hora
+        ((TextView) findViewById(R.id.titleEgipto)).setText("Hora El Cairo: " + horaCairoFormateada);
+
+        // Obtenemos la hora local
+        ZonedDateTime horaParis = ZonedDateTime.now(ZoneId.of("Europe/Paris"));
+        // Convertimos la hora local a formato hh:mm
+        LocalTime horaParis24hs = horaParis.toLocalTime();
+        // Formateamos la hora en formato hh:mm
+        DateTimeFormatter formatterParis = DateTimeFormatter.ofPattern("HH:mm");
+        String horaParisFormateada = horaParis24hs.format(formatterParis);
+        // Mostramos la hora
+        ((TextView) findViewById(R.id.titleParis)).setText("Hora Paris: " + horaParisFormateada);
+
+        // Obtenemos la hora local
+        ZonedDateTime horaPr = ZonedDateTime.now(ZoneId.of("America/Puerto_Rico"));
+        // Convertimos la hora local a formato hh:mm
+        LocalTime horaPr24hs = horaPr.toLocalTime();
+        // Formateamos la hora en formato hh:mm
+        DateTimeFormatter formatterPr = DateTimeFormatter.ofPattern("HH:mm");
+        String horaPrFormateada = horaPr24hs.format(formatterPr);
+        // Mostramos la hora
+        ((TextView) findViewById(R.id.titlePr)).setText("Hora Puerto Rico: " + horaPrFormateada);
+
+        // Obtenemos la hora local
+        ZonedDateTime horaAdis = ZonedDateTime.now(ZoneId.of("Africa/Addis_Ababa"));
+        // Convertimos la hora local a formato hh:mm
+        LocalTime horaAdis24hs = horaAdis.toLocalTime();
+        // Formateamos la hora en formato hh:mm
+        DateTimeFormatter formatterAdis = DateTimeFormatter.ofPattern("HH:mm");
+        String horaAdisFormateada = horaAdis24hs.format(formatterAdis);
+        // Mostramos la hora
+        ((TextView) findViewById(R.id.titleAA)).setText("Hora Addis Abeba: " + horaAdisFormateada);
 
 
     }
