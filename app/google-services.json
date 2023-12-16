@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604495356724",
+    "project_id": "apps-moviles-49064",
+    "storage_bucket": "apps-moviles-49064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604495356724:android:17c298b61acf685d86fb61",
+        "android_client_info": {
+          "package_name": "com.example.parcial_1_am_acn4b_carugati_fattore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3XZeObLFvgVfJILGVT7xOsRDbXw2ZsPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
