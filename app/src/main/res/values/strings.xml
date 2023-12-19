@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">parcial-1-am-acn4b-carugati-fattore</string>
+    <string name="title_activity_register">RegisterActivity</string>
 </resources>
