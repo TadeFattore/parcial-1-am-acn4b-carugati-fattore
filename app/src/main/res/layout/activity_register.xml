@@ -28,6 +28,7 @@
                 android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/black_ops_one"
                 android:ems="10"
                 android:hint="Nombre"
                 android:inputType="textPersonName" />
@@ -36,6 +37,7 @@
                 android:id="@+id/correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/black_ops_one"
                 android:ems="10"
                 android:hint="Correo"
                 android:inputType="textEmailAddress" />
@@ -44,6 +46,7 @@
                 android:id="@+id/contrasena"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/black_ops_one"
                 android:ems="10"
                 android:hint="Contraseña"
                 android:inputType="textPassword" />
@@ -56,6 +59,7 @@
                 android:id="@+id/btn_registro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="onRegisterClick"
                 android:text="Registrarme" />
 
@@ -63,6 +67,7 @@
                 android:id="@+id/btn_back"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/black_ops_one"
                 android:onClick="onBackClick"
                 android:text="Volver" />
         </LinearLayout>

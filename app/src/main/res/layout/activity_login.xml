@@ -28,6 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="INICIAR SESIÓN"
+                android:fontFamily="@font/black_ops_one"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -38,6 +39,7 @@
 
             <EditText
                 android:id="@+id/correo"
+                android:fontFamily="@font/black_ops_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -46,6 +48,7 @@
 
             <EditText
                 android:id="@+id/contrasena"
+                android:fontFamily="@font/black_ops_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -58,14 +61,15 @@
                 android:layout_height="wrap_content"
                 android:text="Ingresar"
                 android:onClick="onLoginClick"
+                android:fontFamily="@font/black_ops_one"
                 app:cornerRadius="50dp" />
 
             <Button
                 android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#203B8B"
-                android:text="registrarme"
+                android:fontFamily="@font/black_ops_one"
+                android:text="Registrarme"
                 android:onClick="toRegisterClick"
                 android:textSize="12sp"
                 app:cornerRadius="50dp" />
@@ -74,7 +78,7 @@
                 android:id="@+id/btn_anonymous"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#008989"
+                android:fontFamily="@font/black_ops_one"
                 android:text="Visitante"
                 android:onClick="onGuestClick"
                 android:textSize="12sp"
