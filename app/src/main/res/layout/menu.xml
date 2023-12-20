@@ -56,7 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/black_ops_one"
-            android:text="Clima" />
+            android:text="Usuarios Registrados"
+            android:onClick="onDownloadClick"
+            />
 
     </LinearLayout>
 
