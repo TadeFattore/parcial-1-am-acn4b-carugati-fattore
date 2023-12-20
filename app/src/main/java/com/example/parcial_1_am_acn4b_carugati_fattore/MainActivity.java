@@ -298,7 +298,7 @@ public class MainActivity extends AppCompatActivity {
                     return "Problemas de conexión";
                 }
                 input = conexion.getInputStream();
-                String rutaGuardado = getFilesDir() + "/Guias.pdf";
+                String rutaGuardado = getFilesDir() + "/Usuarios.pdf";
                 output = new FileOutputStream(rutaGuardado);
 
                 byte[] data = new byte[1024];
